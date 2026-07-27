@@ -1,8 +1,14 @@
 aid: getsetup
 name: GetSetup
-description: 'GetSetup is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'GetSetUp is a consumer education platform delivering live, interactive online
+  classes designed specifically for older adults. Learners join expert-led sessions to build
+  digital skills, stay physically and mentally active, pursue hobbies, and connect with a
+  global community of peers. The catalog spans technology how-tos, health and wellness,
+  finance, creativity, and social classes, offered in multiple languages across regions.
+  GetSetUp partners with health plans, employers, libraries, and government programs to
+  make classes accessible. Backed by Cowboy Ventures, it operates a business-to-consumer
+  learning experience rather than a public developer API; this profile tracks its public
+  web surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/getsetup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +16,49 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Online Learning
+- Live Classes
+- Older Adults
+- Health and Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+image: https://www.getsetup.io/images/apple-touch-icon.png
 common:
+- type: DomainSecurity
+  url: security/getsetup-domain-security.yml
 - type: Website
   url: https://www.getsetup.io
+- type: Support
+  url: https://www.getsetup.io/support
+- type: HelpCenter
+  url: https://www.getsetup.io/help
+- type: Login
+  url: https://www.getsetup.io/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
